@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+}
+
+@media screen and (max-width:500px){
+    body{
+        background-color: lightcoral;
+        color: whitesmoke;
+    }
+}
+
+@media screen and (max-width:400px){
+    body{
+        background-color: black;
+        color: whitesmoke;
+    }
+}
